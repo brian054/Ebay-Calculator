@@ -68,7 +68,7 @@ public class Calc {
 		            double ppFee = calcSell * 0.029D + 0.3D;
 		            double ebayFee = calcSell * 0.1D;
 		            
-		            calcSell = calcSell - ppFee + ebayFee - calcShip;
+		            calcSell = calcSell - ppFee - ebayFee - calcShip;
 		            
 		            double netProfit = calcSell - calcBuy;
 		            
